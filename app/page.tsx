@@ -4,7 +4,7 @@ import { Container } from "@/components/Container";
 export default function Page() {
   return (
     <Container>
-      <div className="space-y-10">
+      <div className="space-y-10 hidden">
         {/* HEADER */}
         <div className="rounded-3xl bg-white p-8 sm:p-10 shadow-sm ring-1 ring-slate-200">
           <div className="inline-flex items-center gap-2 rounded-full bg-slate-100 px-4 py-2 text-sm font-bold text-slate-700 ring-1 ring-slate-200">

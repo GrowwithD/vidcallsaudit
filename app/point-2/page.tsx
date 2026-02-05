@@ -59,7 +59,7 @@ function BigCard({
 export default function Point2Page() {
   return (
     <Container>
-      <div className="space-y-10">
+      <div className="space-y-10 hidden">
         {/* TOP NAV (match Point #1 style) */}
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <Link
